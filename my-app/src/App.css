@@ -1,0 +1,36 @@
+:root {
+  --grey: #828282;
+  --blue: #2f80ed;
+  --transition: all 0.3s ease;
+}
+.App {
+  padding: 20px 120px;
+  text-align: center;
+  background-image: url("./background.jpg");
+  min-height: 100vh;
+  color: white;
+  font-size: 18px;
+}
+
+.button {
+  width: 220px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--grey);
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: inherit;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+
+.button:focus,
+.button:hover {
+  background-color: var(--blue);
+}
+
+.filed {
+  width: 500px;
+  height: 500px;
+}
